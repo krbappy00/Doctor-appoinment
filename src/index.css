@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+  /* background-image: linear-gradient(to right top, #ffffff, #f7f8fa, #eff2f5, #e5ecef, #dbe6e8, #d8e5e7, #d4e5e5, #d1e4e3, #d2e9e8, #d3eeec, #d4f3f1, #d5f8f5); */
+  margin: 0;
+  overflow-x: hidden;
+  
+  
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #EEEEEE;
+}
+p{
+  color:#EEEEEE;
+}
+
